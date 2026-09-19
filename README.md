@@ -1,3 +1,8 @@
+## Integrantes
+Caio Couto - RM563452
+Guilherme Eustáquio - RM566784
+Matheus Tavares - RM566844
+
 # Calculadora Semi-Científica (C# / Windows Forms)
 
 Projeto acadêmico desenvolvido em **C#** utilizando **Windows Forms**, no
