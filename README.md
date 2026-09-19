@@ -3,19 +3,6 @@
 Projeto acadêmico desenvolvido em **C#** utilizando **Windows Forms**, no
 **Visual Studio 2022**, implementando uma calculadora básica "semi-científica".
 
-## Como abrir no Visual Studio 2022
-
-1. Abra o Visual Studio 2022.
-2. Clique em **Abrir uma pasta** (ou **Open a local folder**) e selecione a
-   pasta `CalculadoraSemiCientifica` extraída do .zip.
-3. O Visual Studio vai reconhecer automaticamente o arquivo
-   `CalculadoraSemiCientifica.csproj`. Dê duplo clique nele se necessário.
-4. Pressione **F5** (ou clique em "Iniciar") para compilar e executar.
-
-> O projeto usa o modelo **SDK-style** (.NET 8, Windows Forms). Caso seu
-> Visual Studio não tenha o *workload* "Desenvolvimento para desktop com .NET"
-> instalado, instale-o pelo Visual Studio Installer.
-
 ## Estrutura do projeto
 
 | Arquivo | Responsabilidade |
@@ -40,22 +27,3 @@ Projeto acadêmico desenvolvido em **C#** utilizando **Windows Forms**, no
   exibindo uma mensagem (`MessageBox`) ao usuário.
 - Tela **Sobre** (segundo Form) com os integrantes do grupo, resumo do
   trabalho e link para o GitHub.
-
-## Antes de entregar o trabalho, personalize:
-
-1. Abra `FrmSobre.Designer.cs` e substitua:
-   - O texto de `txtIntegrantes.Text` pelos nomes reais dos integrantes do
-     grupo (e RA/matrícula, se solicitado pelo professor).
-   - O texto de `lnkGithub.Text` pelo link real do repositório do grupo no
-     GitHub.
-   - Se quiser, ajuste também o texto de `txtResumo.Text` com o resumo que o
-     grupo preferir.
-2. Opcional: altere cores/fontes em `FrmCalculadora.Designer.cs` para
-   personalizar ainda mais o layout.
-
-## Observação sobre o separador decimal
-
-Para simplificar a lógica e evitar problemas de conversão, a calculadora usa
-o **ponto (`.`)** como separador decimal (padrão internacional /
-`CultureInfo.InvariantCulture`), independentemente da configuração regional
-do Windows.
